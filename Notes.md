@@ -77,3 +77,19 @@ kube-node-lease	-> node heartbeat
 # kubectl get pods 
 
 # kubectl get pods -n dev-environment
+
+## (Logs levels- debug, info, warning, error)
+
+## ConfigMaps - 
+
+# kubectl apply -f app-config.yaml -f deployment-with-config.yaml
+
+# kubectl exec -it mywebapp-deploy-668dc4f5cc-7bvsq -- bash
+
+# echo $APP_ENV
+# echo $LOG_LEVEL
+# echo $APP_NAME
+# exit
+
+mywebapp-deploy-668dc4f5cc-7bvsq
+
